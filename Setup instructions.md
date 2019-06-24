@@ -92,6 +92,8 @@ A text editor is one of the most important tools of a developer.
 
 Download Visual Studio Code from [here](https://code.visualstudio.com/) and install it in Windows. 
 
+Restart Hyper
+
 Now let’s install some useful plugins! Restart Hyper (or run the command ```bash exec zsh```)
 
 Copy and paste these commands one by one.
