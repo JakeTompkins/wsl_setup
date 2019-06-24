@@ -39,7 +39,7 @@ shell: ‘’.
 Change it to: 
 
 ```javascript
-shell: ‘*C:\\Windows\\System32\\wsl.exe*’
+shell: ‘C:\\Windows\\System32\\wsl.exe’
 ```
 
 
