@@ -339,17 +339,17 @@ Run this command, it will **take a while (5-10 minutes)**
 
 ```bash
 
-rbenv install 2.5.3
+rbenv install 2.6.3
 
 ```
 
 Once the ruby installation is done, run this command to tell the system
 
-to use the 2.5.3 version by default.
+to use the 2.6.3 version by default.
 
 ```bash
 
-rbenv global 2.5.3
+rbenv global 2.6.3
 
 ```
 
