@@ -94,10 +94,14 @@ Download Visual Studio Code from [here](https://code.visualstudio.com/) and inst
 
 Now let’s install some useful plugins! Restart Hyper (or run the command ```bash exec zsh```)
 
-Copy and paste this long command.
+Copy and paste these commands one by one.
 
 ```bash
-code --install-extension patbenatar.advanced-new-file Atishay-Jain.All-Autocomplete mgmcdermott.vscode-language-babel ZneuRay.erb-vscode-snippets misogi.ruby-rubocop
+code --install-extension patbenatar.advanced-new-file 
+code --install-extension Atishay-Jain.All-Autocomplete 
+code --install-extension mgmcdermott.vscode-language-babel 
+code --install-extension ZneuRay.erb-vscode-snippets 
+code --install-extension misogi.ruby-rubocop
 
 ```
 
