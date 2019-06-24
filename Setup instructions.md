@@ -409,7 +409,7 @@ an open-source robust and production-ready database. Let's install it now.
 
 Download Postgres for Windows from here: https://www.postgresql.org/download/windows/
 
-Click through the installer, but on the last page be sure not to run (THAT THING I DONT REMEMBER)
+Click through the installer, but on the last page be sure not to run ```Stack Builder```!!!
 
 Now in your terminal, we need to install a couple dependencies so that your ubuntu can talk to Postgres on Windows.
 
