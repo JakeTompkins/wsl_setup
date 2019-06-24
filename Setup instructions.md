@@ -245,7 +245,7 @@ Now copy/paste this very long line in your terminal. Do **not** change this one.
 
 ```bash
 
-Export WIN_DIR=`pwd` && cd ~ && git clone git@github.com:$GITHUB_USERNAME/dotfiles.git ~/ && cd $WIN_DIR && mkdir -p code/$GITHUB_USERNAME
+export WIN_DIR=`pwd` && cd ~ && git clone git@github.com:$GITHUB_USERNAME/dotfiles.git ~/ && cd $WIN_DIR && mkdir -p code/$GITHUB_USERNAME && cd ~/dotfiles
 
 ```
 
@@ -281,7 +281,7 @@ First open `.zshrc` file:
 
 ```bash
 
-code ~/.zshrc
+nano ~/.zshrc
 
 ```
 
