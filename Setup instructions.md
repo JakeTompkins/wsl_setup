@@ -421,9 +421,9 @@ sudo -u postgres psql -p 5432 -h localhost --command "CREATE ROLE `whoami` LOGIN
 
 ```
 
-Now, in your windows file explorer, go to C:/Users/YOUR_USER_NAME/Program Files/Postgres/11/data
+Now, in your windows file explorer, go to C:/Program Files/Postgres/11/data
 
-Find and open the file named pq_hba.conf
+Find and open the file named pg_hba.conf
 
 Change all values from from ```md5``` to ```trust```
 
