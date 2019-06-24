@@ -293,7 +293,7 @@ plugins=(gitfast last-working-dir common-aliases sublime zsh-syntax-highlighting
 
 ```
 
-Save the `.zshrc` file with `Ctrl` + `S` and you can close VS Code
+Save the `.zshrc` file with `Ctrl` + `x`, `y`, `enter` and you can close VS Code
 
 ## Installing Ruby (with [rbenv](https://github.com/sstephenson/rbenv))
 
