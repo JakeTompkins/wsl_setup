@@ -361,7 +361,7 @@ ruby -v
 
 ```
 
-You should see something starting with `ruby 2.5.3p`. If not, ask a teacher.
+You should see something starting with `ruby 2.6.3p`. If not, ask a teacher.
 
 ## Installing some gems
 
