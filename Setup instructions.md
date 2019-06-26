@@ -94,7 +94,7 @@ Download Visual Studio Code from [here](https://code.visualstudio.com/) and inst
 
 Restart Hyper
 
-Now let’s install some useful plugins! Restart Hyper
+Now let’s install some useful plugins!
 
 Copy and paste these commands one by one.
 
