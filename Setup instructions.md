@@ -20,7 +20,7 @@ First you need to check your machine runs on Windows 10 build 1615 or later. Fol
 
 ## Ubuntu on Windows
 
-Download [Ubuntu on Windows](https://www.microsoft.com/fr-fr/store/p/ubuntu/9nblggh4msv6?rtc=1) from the Windows Store. Once download has completed, select _Launch_. This will open a console window. Wait for installation to complete then you will be prompted to create your LINUX user account. Create your LINUX username and password. This user account has no relationship to your Windows username and password and hence can be different.
+Download [Ubuntu on Windows](https://www.microsoft.com/en-us/store/p/ubuntu/9nblggh4msv6?rtc=1) from the Windows Store. Once download has completed, select _Launch_. This will open a console window. Wait for installation to complete then you will be prompted to create your LINUX user account. Create your LINUX username and password. This user account has no relationship to your Windows username and password and hence can be different.
 
 You're now ready to use your Linux environment 👏.
 
@@ -30,7 +30,7 @@ Once Hyper has installed, run the application, then hit “ctrl + ,” to open t
 
 Find the line: 
 
-```javascript
+```bash
 shell: ‘’.
 ```
 
@@ -38,13 +38,19 @@ shell: ‘’.
 
 Change it to: 
 
-```javascript
-shell: ‘C:\\Windows\\System32\\wsl.exe’
+```bash
+shell: ‘C:\\Windows\\System32\\cmd.exe’
 ```
 
 
 
-Now find ```shellArgs``` just below it, and set it to: ```shellArgs[]```,
+Now find ```shellArgs``` just below it, and set it to 
+
+``` bash
+shellArgs: ["--login", "-i", "/c wsl.exe"]
+```
+
+
 
 Restart Hyper
 
