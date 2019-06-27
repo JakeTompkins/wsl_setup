@@ -31,7 +31,7 @@ Once Hyper has installed, run the application, then hit “ctrl + ,” to open t
 Find the line: 
 
 ```bash
-shell: ‘’.
+shell: ‘’,
 ```
 
 
@@ -39,7 +39,7 @@ shell: ‘’.
 Change it to: 
 
 ```bash
-shell: ‘C:\\Windows\\System32\\cmd.exe’
+shell: ‘C:\\Windows\\System32\\cmd.exe’,
 ```
 
 
@@ -47,7 +47,7 @@ shell: ‘C:\\Windows\\System32\\cmd.exe’
 Now find ```shellArgs``` just below it, and set it to 
 
 ``` bash
-shellArgs: ["--login", "-i", "/c wsl.exe"]
+shellArgs: ["--login", "-i", "/c wsl.exe"],
 ```
 
 
