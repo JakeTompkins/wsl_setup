@@ -70,7 +70,7 @@ sudo apt install -y apt-transport-https unzip gnome-terminal
 
 Menlo for Powerline is a fancy font for your terminal. Download it from [abertsch/Menlo-for-Powerline repository](https://github.com/abertsch/Menlo-for-Powerline/raw/master/Menlo%20for%20Powerline.ttf) on GitHub. Once download has completed, double-click on the `Menlo for Powerline.ttf` file and install it on windows.
 
-Then open preferences in Hyper (ctrl + ,), and add ‘Menlo for Powerline’ to the beginning of the fonts
+Then open preferences in Hyper (ctrl + ,), and add ‘Menlo for Powerline’ to the beginning of the font family line
 
 ## GitHub account
 
