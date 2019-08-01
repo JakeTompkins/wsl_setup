@@ -421,7 +421,7 @@ Now in your terminal, we need to install a couple dependencies so that your ubun
 
 ```Bash
 
-sudo apt-get install postgresql-contrib
+sudo apt-get install postgresql-contrib libpq-dev
 
 sudo -u postgres psql -p 5432 -h localhost --command "CREATE ROLE `whoami` LOGIN createdb;"
 
